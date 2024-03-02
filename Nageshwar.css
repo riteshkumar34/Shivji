@@ -1,0 +1,96 @@
+/* CSS styles for Nageshwar Temple website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Nageshwar\ temple1.png');
+    background-size: cover;
+     
+}
+.container {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 75px; 
+    height: 50px; 
+    background-color: rgb(41, 165, 41);
+    padding: 10px;
+}
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Nageshwar\ temple1.png');
+    background-size: cover;
+    filter: blur(100px); 
+    z-index: -1;
+    opacity:0.1;
+}
+header {
+    background-color: #0f1d7b;
+    text-decoration: underline;
+    color: #0f79c5;
+    text-align: center;
+    padding: 10px ;
+    opacity:0.8;
+    font-size:20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #821111;
+    text-align:center;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    color:#1e0fa4;
+    text-decoration: underline;
+}
+h3{
+    color:rgb(138, 161, 39);
+    text-align:center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #2c57c3;
+    text-decoration: none;
+}
+p{
+text-decoration: solid;
+opacity:0.8;
+font-size: 18px;
+     
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+em{
+    font-size: 20px;
+    color: #b5b80b;
+}
